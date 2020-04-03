@@ -12,12 +12,25 @@
     
     
     <item>
-      <title>Blog</title>
+      <title>hugo搭建博客过程</title>
       <link>https://xinyang922.github.io/post/blog/</link>
       <pubDate>Sat, 04 Apr 2020 01:28:56 +0800</pubDate>
       
       <guid>https://xinyang922.github.io/post/blog/</guid>
-      <description></description>
+      <description>下载hugo 网站https://github.com/spf13/hugo/releases
+下载解压后，将hugo.exe所在的目录添加到环境变量path后面 然后在命令行界面 hugo version 查看是否下载成功
+创建hugo项目 命令 hugo new site +文件名
+进入myblog 设置主题 https://themes.gohugo.io/可以在这个网站中克隆一种主题
+选定一种主题点进去 会有clone方法
+按照指令在命令行界面输入 先进去myblog文件下 用git clone 主题
+在本地启动博客 hugo server -t m10c &amp;ndash;buildDrafts
+启动完成可以在浏览器访问localhost:1313 查看
+克隆的主题成功
+然后进入github.com新建一个github账号 登录之后新建一个新的空仓库（New respository） 新建后如下图
+新建仓库后仓库有如下面的命令
+将博客推到仓库中
+进去git仓库查看
+部署成功 访问箭头所指的仓库命即可</description>
     </item>
     
   </channel>
